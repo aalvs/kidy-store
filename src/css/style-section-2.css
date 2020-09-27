@@ -1,0 +1,65 @@
+/* Estilização da Article */
+article {
+    margin: 4rem 0rem 4rem 0rem;
+}
+
+.content-vitrine {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5rem;
+}
+
+.showcase-text {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.showcase-text h1 {
+    font-size: 2rem;
+}
+
+.showcase-text p {
+    color: var(--color-gray);
+}
+
+.banner-ads {
+    background-color: beige;
+}
+
+.showcase-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5em;
+}
+
+.product-item {
+    width: 13.629rem;
+    height: 16.25rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-gray-1);
+}
+
+.product-item:hover {
+    -webkit-box-shadow: 0px 7px 20px 0px rgba(4, 0, 6, 0.11);
+    -moz-box-shadow:    0px 7px 20px 0px rgba(4, 0, 6, 0.11);
+    box-shadow:         0px 7px 20px 0px rgba(4, 0, 6, 0.11);
+}
+
+.product-content img {
+    width: 100%;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em 0em 1em;
+}
+
+.product-price {
+    color: var(--color-orange);
+    font-size: 1em;
+}
+
+.product-payment {
+    color: var(--color-gray);
+    font-size: 0.8em;
+}
