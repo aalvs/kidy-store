@@ -22,7 +22,7 @@ article {
 }
 
 .banner-ads {
-    background-image: url(../../assets/img-banner-ads/img-bg-banner-ads.png);
+    background-image: url(../assets/img-banner-ads/img-bg-banner-ads.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
