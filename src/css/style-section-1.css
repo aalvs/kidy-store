@@ -42,6 +42,9 @@ a .brand {
 
 #navMenu ul li a{
     color: var(--color-white);   
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-right: 1em;
 }
 
 .nav-itens a img {
