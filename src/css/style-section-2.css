@@ -22,17 +22,16 @@ article {
 }
 
 .banner-ads {
-    padding: 1.6rem 1.6rem 0rem 1.6rem;
     background-image: url(../../assets/img-banner-ads/img-bg-banner-ads.png);
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .banner-ads img {
+    padding: 1.6rem 1.6rem 0rem 1.6rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -43,7 +42,7 @@ article {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0.6rem;
+    padding: 1rem 1.6rem 0rem 1.6rem;
 }
 
 .cta-banner-ads h1 {

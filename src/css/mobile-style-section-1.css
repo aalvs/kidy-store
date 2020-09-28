@@ -5,8 +5,12 @@
         display: none;
     }
 
-    .nav-menu {
+    #navMenu ul {
         display: none;
+    }
+
+    #navMenu ul li a{
+        color: var(--color-dark);
     }
 
     .bg-img {
@@ -30,8 +34,7 @@
         justify-content: space-between;
         padding: 1em 0em 0em 0em;
     }
-    
-    
+     
     .nav-itens a img {
         height: 1.6em;
         margin-left: 1em;

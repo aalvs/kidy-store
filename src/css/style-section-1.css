@@ -36,15 +36,12 @@ a .brand {
     height: 5rem;
 }
 
-.nav-menu ul {
+#navMenu ul {
     display: flex;
 }
 
-.nav-menu ul li a{
-    color: var(--color-white);
-    padding-right: 1rem;
-    font-weight: 500;
-    font-size: 1.1rem;
+#navMenu ul li a{
+    color: var(--color-white);   
 }
 
 .nav-itens a img {
