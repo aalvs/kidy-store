@@ -1,6 +1,6 @@
-/* Estilização da Main */
+/* Estilização da Section 1 */
 .top-header {
-    background-color: var(--color-blue);
+    background-color: var(--color-tifany);
     color: var(--color-white);
     text-transform: uppercase;
     font-weight: 600;
@@ -36,8 +36,8 @@ nav {
 }
 
 main {
-    height: 120vh;
-    background-image: url(../../assets/img-bg-main.jpg);
+    height: 122vh;
+    background-image: url(../../assets/img-bg-main-2.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

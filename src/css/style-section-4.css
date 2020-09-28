@@ -1,0 +1,143 @@
+/* Estilização da Section 4 */
+section {
+    margin: 4rem 0rem 4rem 0rem;
+}
+
+.blog-content-title h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--color-dark);
+    font-size: 2.8rem;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.blog-post-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5rem;
+}
+
+.blog-post-item {
+    box-shadow:         0px 7px 10px 0px rgba(4, 0, 6, 0.07);
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(4, 0, 6, 0.07);
+    -moz-box-shadow:    0px 7px 10px 0px rgba(4, 0, 6, 0.07); 
+}
+
+.blog-post-item img {
+    width: 100%;
+}
+
+.blog-post-info {
+    padding: 0.6em 1em 1em 1em;
+}
+
+.blog-post-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-post-title h2 {
+    color: var(--color-gray);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.blog-post-title span {
+    color: var(--color-gray);
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.blog-post-description {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blog-post-description p {
+    color: var(--color-gray);
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.blog-post-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blog-post-description img {
+    width: 1.5rem;
+}
+
+/* Estilização da Form Newsletter */
+.form-newsletter {
+    padding: 5rem 0rem 0rem 0rem;
+}
+
+.section-newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-form-newsletter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-form-newsletter img {
+    width: 11rem;
+}
+
+.text-form-newsletter {
+    padding-left: 2rem;
+}
+
+.text-form-newsletter h2 {
+    color: var(--color-salmao);
+}
+
+.text-form-newsletter p{
+    color: var(--color-brown);
+    line-height: 1.3;
+}
+
+form input {
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid var(--color-gray);
+    border-radius: 50px;
+    padding: 1.4em;
+    margin-right: 1.6rem;
+}
+
+form input:hover {
+    border: 1px solid var(--color-salmao);
+}
+
+form input:focus {
+    outline: none;
+}
+
+form button {
+    height: 2.6rem;
+    padding: 0em 3em 0em 3em;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color-tifany);
+    color: var(--color-white);
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+form button:hover {
+    background-color: #64c2c0;
+}

@@ -1,5 +1,9 @@
+@import "./global.css";
 @import "./style-section-1.css";
 @import "./style-section-2.css";
+@import "./style-section-3.css";
+@import "./style-section-4.css";
+@import "./style-footer.css";
 
 .wrap {
     max-width: 1336px;
