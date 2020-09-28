@@ -1,0 +1,45 @@
+/* Estilização da Section 2 */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    aside {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    .showcase-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.8rem;
+    }
+
+    .showcase-title h1 {
+        font-size: 2rem;
+    }
+
+    .product-info-showcase {
+        padding: 0em 0em 0.5em 0.5em;
+    }
+
+    .product-name-showcase {
+        font-size: 0.8em;
+    }
+
+    .product-info-payment {
+        width: 10rem;
+    }
+
+    .list-side {
+        margin-top: 1em;
+    }
+
+    .btn-buy-product-item {
+        margin: 1em 0em;
+        width: 152px;
+        height: 42px;
+        visibility: visible;
+    }
+
+    .cta-product {
+        flex-direction: column;
+    }
+
+}

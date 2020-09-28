@@ -1,0 +1,42 @@
+/* Estilização da Section 1 */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .top-header {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .bg-img {
+        background-position-y: 4.5rem;
+    }
+
+    main {
+        max-height: 17.6rem;
+    }
+
+    a .brand {
+        height: 2.8rem;
+    }
+
+    .btnOff {
+        display: inline;
+    }
+
+    .navbar-itens {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 0em 0em 0em;
+    }
+    
+    
+    .nav-itens a img {
+        height: 1.6em;
+        margin-left: 1em;
+    }
+}
+
+
+

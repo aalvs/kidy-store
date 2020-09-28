@@ -1,0 +1,48 @@
+/* Estilização da Section 2 */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    article {
+        margin: 2rem 0rem 2rem 0rem;
+    }
+
+    .content-vitrine {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner-ads {
+        margin-top: 2rem;
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .banner-ads img {
+        width: 100%;
+    }
+
+    .btn-buy-banner-ads {
+        visibility: visible;
+    }
+
+    .cta-banner-ads h1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--color-white);
+        line-height: 1;
+    }
+
+    .content-showcase-text p {
+        font-size: 0.9rem;
+    }
+
+    .content-showcase-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.4rem;
+    }
+
+    .product-item {
+        width: 11.25rem;
+        height: 13.540rem;
+    }
+}

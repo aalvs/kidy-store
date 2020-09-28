@@ -4,30 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="only screen and (max-width: 480px" href="./css/mobile.css">
     <title>Loja Kidy - Saúde e Conforto a um clique de você</title>
     <link rel="icon" href="../assets/favicon.png">
     <meta name="description" content="Bem-vindos à Loja Kidy! Aqui você encontra muito mais saúde e conforto para os pés 
     das crianças, além de calçados super estilosos e divertidos!">
-    <meta name="keywords" content="Kidy; Calçados Infantis; Saúde e Conforto; Calçados Kidy"> 
+    <meta name="keywords" content="Kidy; Calçados Infantis; Saúde e Conforto; Calçados Kidy">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </head>
 <body>
     <main>
         <div class="top-header">lorem ipsum consectur adlip R$ 99,99</div>
-        <nav class="wrap">
-            <div class="nav-menu">
-                <ul>
-                    <li><a href="#!">Calçados</a></li>
-                    <li><a href="#!">Máscaras</a></li>
-                    <li><a href="#!">Sobre nós</a></li>
+        <div class="bg-img">
+            <nav class="wrap">
+                <ul id="navbar" class="navbar-itens">
+                    <a href="#navbar" class="btnOff btnOn">
+                        <ion-icon size="large" name="menu-outline"></ion-icon>
+                    </a>
+                    <li>
+                        <div class="nav-menu">
+                            <ul>
+                                <li><a href="#!">Calçados</a></li>
+                                <li><a href="#!">Máscaras</a></li>
+                                <li><a href="#!">Sobre nós</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./index.html">
+                            <img class="brand" src="https://www.kidy.com.br/media/wysiwyg/logokidy.png" alt="Kidy">
+                        </a>
+                    </li>
+                    <li>
+                        <div class="nav-itens">
+                            <a href=""><img src="../assets/busca.svg" alt=""></a>
+                            <a href=""><img src="../assets/login.svg" alt=""></a>
+                            <a href=""><img src="../assets/sacola.svg" alt=""></a>
+                        </div>   
+                    </li>
                 </ul>
-            </div>
-            <span><a href="./index.html"><img class="brand" src="../assets/logo-kidy.svg" alt="Kidy" height="110rem"></a></span>
-            <div class="nav-itens">
-                <a href=""><img src="../assets/busca.svg" alt=""></a>
-                <a href=""><img src="../assets/login.svg" alt=""></a>
-                <a href=""><img src="../assets/sacola.svg" alt=""></a>
-            </div>   
-        </nav>
+            </nav>
+        </div>
     </main>
     <article>
         <div class="wrap content-vitrine">
@@ -305,7 +322,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrap form-newsletter">
+        <div class="wrap">
             <div class="section-newsletter">
                 <div class="content-form-newsletter">
                     <div class="img-form-newsletter">
@@ -345,7 +362,6 @@
                 <ul class="links-list">
                     <li><a href="">Franquias</a></li>
                     <li><a href="">Plano de Negócio</a></li>
-                    
                 </ul>
             </li>
             <li class="footer-block">
@@ -365,9 +381,9 @@
                     <li><a href="">Termos de Uso</a></li>
                 </ul>
             </li>
-            <li class="footer-block-social">
+            <div class="footer-block-social">
                 <div class="logo-footer">
-                    <img src="../assets/logo-kidy.svg" alt="Kidy">
+                    <img src="https://www.kidy.com.br/media/wysiwyg/logokidy-mobile.png" alt="Kidy">
                 </div>
                 <div class="social-block">
                     <h3>Kidy nas redes sociais</h3>
@@ -381,8 +397,7 @@
                     <h3>Desenvolvimento</h3>
                     <img src="../assets/tray_logo_2020.png" alt="Desenvolvido com Tray e-Commerce">
                 </div>
-                
-            </li>
+            </div>
         </ul>
         <div class="botton-footer">2020, © Kidy Calçados - Fone (18)3643-2500 / 
             Whatsapp (18) 99725-7993 - sak@kidy.com.br - CNPJ.: 96.261.607/0001-02 

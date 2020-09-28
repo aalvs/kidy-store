@@ -13,10 +13,27 @@
     top: 0;
 }
 
-nav {
+.bg-img {
+    height: 100vh;
+    background-image: url(../../assets/img-bg-main-1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    overflow: auto;
+}
+
+.btnOff {
+    display: none;
+}
+
+.navbar-itens {
     display: flex;
     justify-content: space-between;
     padding: 1.4rem 0rem 1.4rem 0rem;
+}
+
+a .brand {
+    height: 5rem;
 }
 
 .nav-menu ul {
@@ -35,13 +52,4 @@ nav {
     margin-left: 1em;
 }
 
-main {
-    height: 122vh;
-    background-image: url(../../assets/img-bg-main-2.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
+

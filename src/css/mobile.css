@@ -1,0 +1,12 @@
+@import "./global.css";
+@import "./mobile-style-section-1.css";
+@import "./mobile-style-section-2.css";
+@import "./mobile-style-section-3.css";
+@import "./mobile-style-section-4.css";
+@import "./mobile-style-footer.css";
+
+.wrap {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 1em;
+}
